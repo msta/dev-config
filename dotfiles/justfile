@@ -1,0 +1,7 @@
+dotfiles := justfile_directory()
+home := env('HOME')
+
+all: zed
+
+zed:
+    cp -rsn {{ dotfiles }}/zed {{ home }}/.config/
