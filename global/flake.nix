@@ -31,6 +31,7 @@
           pkgs.docker
           pkgs.raycast
           pkgs.eza
+          pkgs.just
           (pkgs.fetchFromGitHub {
             owner = "lilyball";
             repo = "nix-env.fish";
